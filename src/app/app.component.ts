@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sathish';
+  variable1 : any;
+
+  set(){
+    this.variable1="default text"; 
+  }
 }
